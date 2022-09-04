@@ -1,0 +1,9 @@
+syntax = "proto3";
+package lucawilliams4831.checkers.checkers;
+
+option go_package = "github.com/LucaWilliams4831/checkers/x/checkers/types";
+
+message NextGame {
+  uint64 idValue = 1; 
+  
+}
